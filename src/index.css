@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #b8b8b8;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------*/
+/*Generic Styles*/
+
+.main-content {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.main-content h2 {
+  margin-bottom: 20px;
+}
